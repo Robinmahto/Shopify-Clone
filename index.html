@@ -98,9 +98,9 @@
     </nav>
 
     <!-- section 1.2 Hero-Section -->
-    <section class="bg-headercolor lg:flex justify-between pt-20">
-      <div class="pl-20 bg-slate-600">
-        <h2 class="font-black text-5xl leading-snug text-greendark pt-24 pb-8">
+    <section class="bg-headercolor flex lg:flex justify-between pt-20">
+      <div class="pl-20">
+        <h2 class="font-black text-4xl lg:text-5xl leading-snug text-greendark pt-8 lg:pt-24 pb-6 lg:pb-8">
           The easiest way to sell<br />
           online in India
         </h2>
@@ -126,7 +126,7 @@
           receive marketing emails from Shopify.</span
         >
       </div>
-      <img src="./images/hero-product-large.jpg" alt="" class="w-1/2" />
+      <img src="./images/hero-product-large.jpg" alt="" class="w-1/2 hidden lg:block" />
     </section>
 
     <!-- section 2 -->
@@ -147,7 +147,7 @@
         </div>
       </div>
       <!-- section 2.2 -->
-      <div class="flex gap-5 mb-32">
+      <div class="grid gap-8 sm:grid sm:grid-cols-2 sm:gap-8 md:grid md:grid-cols-3 md:gap-8 lg:flex lg:gap-5 mb-32">
         <div>
           <img
             src="./images/home-example-large-1.jpg"
@@ -207,8 +207,8 @@
       <!-- section 2.3 -->
       <div>
         <h2 class="text-white text-3xl mb-16">Take the best path forward</h2>
-        <div class="flex lg:flex gap-5">
-          <div class="w-3/6 lg:w-3/12">
+        <div class="grid gap-6 sm:grid sm:grid-cols-2 sm:gap-8 md:grid md:grid-cols-3 sm:gap-8 lg:flex lg:gap-5">
+          <div>
             <img
               src="./images/online-business.svg"
               alt="online-business"
@@ -223,7 +223,7 @@
             </p>
           </div>
 
-          <div class="w-3/6 lg:w-3/12">
+          <div>
             <img
               src="./images/move-online.svg"
               alt="move-online"
@@ -238,7 +238,7 @@
             </p>
           </div>
 
-          <div class="w-3/6 lg:w-3/12">
+          <div>
             <img
               src="./images/switch-shopify.svg"
               alt="switch-shopify"
@@ -251,7 +251,7 @@
             </p>
           </div>
 
-          <div class="w-3/6 lg:w-3/12">
+          <div>
             <img src="./images/user.svg" alt="user" class="mb-3 w-12" />
             <h2 class="mb-3 text-white font-semibold">Hire a Shopify expert</h2>
             <p class="text-white">
@@ -266,8 +266,8 @@
     <!-- section 3 -->
     <section>
       <div class="text-center my-24">
-        <h2 class="text-4xl mb-4">With you wherever you’re going</h2>
-        <p class="text-xl text-wheatcolor">
+        <h2 class="text-3xl lg:text-4xl mb-4">With you wherever you’re going</h2>
+        <p class="text-lg lg:text-xl text-wheatcolor">
           One platform with all the ecommerce and point of sale features<br />
           you need to start, run, and grow your business.
         </p>
@@ -276,7 +276,7 @@
 
     <!-- section 4 -->
     <section class="px-20">
-      <div class="flex items-center">
+      <div class="flex flex-col lg:flex lg:items-center">
         <img src="./images/poster-sell.jpg" alt="poster-sell" class="w-1/2" />
         <div>
           <h2 class="text-3xl font-medium mb-4">Sell everywhere</h2>
@@ -298,8 +298,8 @@
     </section>
 
     <!-- section 5 -->
-    <section class="px-20">
-      <div class="flex items-center justify-between">
+    <section class="my-12 px-20 bg-gray-400">
+      <div class="flex flex-col lg:flex lg:items-center lg:justify-between">
         <div>
           <h2 class="text-3xl font-medium mb-4">Market your business</h2>
           <p class="text-wheatcolor mb-4">
@@ -321,7 +321,7 @@
 
     <!-- section 6 -->
     <section class="px-20">
-      <div class="flex items-center justify-between">
+      <div class="flex flex-col items-center lg:flex lg:items-center lg:justify-between">
         <img
           src="./images/shopify-dashboard.svg"
           alt="shopify-dashboard"
@@ -348,11 +348,11 @@
     </section>
 
     <!-- section 7 -->
-    <section class="bg-greenlightness px-20 py-32">
+    <section class="bg-greenlightness p-10 md:px-20 md:py-32">
       <h2 class="text-3xl text-greendark mb-8">
         Explore More from shopify in india
       </h2>
-      <div class="flex bg-white justify-between">
+      <div class="bg-white flex flex-col  md:flex md:justify-between">
         <div class="pl-8 pt-8">
           <span class="uppercase font-semibold">start</span>
           <h2 class="text-2xl font-medium mb-4">
@@ -372,11 +372,13 @@
             />
           </div>
         </div>
+        <div>
         <img
           src="./images/india-experts-small.jpg"
           alt="india-experts-small"
-          class="w-1/2"
+          class="w-3/4 p-8 md:w-1/2"
         />
+        </div>
       </div>
     </section>
 
