@@ -8,6 +8,6 @@
   - Total time taken 12hr to complete.
 ## Screenshot
 ### Desktop
-![assignment 16](shopify-Clone.png)
+![assignment 16](Shopify-Clone.png)
 ### Mobile Responsive
-![assignment 16](shopify-Clone-responsive.png)
+![assignment 16](Shopify-Clone-responsive.png)
